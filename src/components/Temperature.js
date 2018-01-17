@@ -12,11 +12,11 @@ class Temperature extends Component {
         return (
             <React.Fragment>
                 <div className="row">
-                    <div className="col col-sm-8">
+                    {/* <div className="col col-sm-8">
                         <Card
                             header="Device Locations"
                             content={<Map />} />
-                    </div>
+                    </div> */}
 
                     <div className="col col-sm-4">
                         <Card

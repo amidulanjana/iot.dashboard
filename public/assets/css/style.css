@@ -84,11 +84,19 @@ a:hover {
 }
 
 .content {
-    width: 88%;
+    width: 70%;
     margin-left: 12%;
     padding: 10px;
     padding: 10px 0 0 15px;
     margin-top: 50px;
+}
+
+.content2 {
+    width: 15%;
+    margin-top: 60px;
+    padding-right:10px;
+    padding-right:5px;
+    margin-left: 20px;
 }
 
 /*left nav  */

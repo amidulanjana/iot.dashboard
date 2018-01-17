@@ -44,7 +44,7 @@ const MyMapComponent = compose(
     })
 
 const DivT=(props)=>{
-    debugger;
+    //debugger;
     return(
         <div onClick={props.onClick}>
         {
