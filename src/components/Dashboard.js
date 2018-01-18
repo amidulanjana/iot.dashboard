@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import Card from './widgets/Card'
+import Map from './widgets/Map'
+import Alarms from './widgets/Alarms';
 
 class Dashboard extends Component {
     render() {
         return (
-            <Card 
-                 header="Dashboard"
-                content="--------------------------------"
-            />
+            <React.Fragment>
+                <Card
+                    header="Dashboard"
+                    content={<Map />}
+                />
+                <br />
+                <Card
+                    header="Alarms"
+                    content={<Alarms />}
+                />
+            </React.Fragment>
         );
     }
 }
