@@ -5,6 +5,7 @@ import Navbar from './NavBar'
 import LeftNav from './LeftNav'
 import Temperature from './Temperature'
 import Test1 from './Test1'
+import Location2 from './Location2'
 import Alarm from './Alarm'
 import Dashboard from './Dashboard'
 
@@ -34,6 +35,7 @@ class App extends Component {
                 <div className="content " style={{ background: '' }} >
                   <Route exact path="/" component={Dashboard} />
                   <Route path="/test1" component={Test1} />
+                  <Route path="/location2" component={Location2} />
                 </div>
 
                 <div className="content2 " style={{ background: '' }} >
