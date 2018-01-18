@@ -17,7 +17,7 @@ class LeftNav extends Component {
                         <Link to={'/test1'} className="nav-link">Location_1</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to={'/test1'} className="nav-link">Location_2</Link>
+                        <Link to={'/location2'} className="nav-link">Location_2</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={'/test1'} className="nav-link">Location_3</Link>
